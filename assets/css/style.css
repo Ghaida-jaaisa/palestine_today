@@ -94,16 +94,16 @@ order: 1 ;
     border-radius: 5px;
  }
  .past .img {
-    animation: past 100s linear .05s infinite alternate-reverse;
+    animation: past 100s linear 0s infinite alternate-reverse;
  }
  .today .img {
-    animation: today 30s linear .05s infinite alternate-reverse;
+    animation: today 30s linear 0s infinite alternate-reverse;
  }
  .cartoon .img { 
-    animation: cartoon  30s linear .05s infinite alternate-reverse;
+    animation: cartoon  30s linear 0s infinite alternate-reverse;
  }
 .videos .img {
-    animation: videos 100s linear .05s infinite alternate-reverse;
+    animation: videos 100s linear 0s infinite alternate-reverse;
 }
 @keyframes past{
 0%{
