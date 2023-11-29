@@ -1,0 +1,10 @@
+margin: auto;
+width: 30%;
+background-color: white ;
+height: 350px; 
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+box-shadow: 10px 10px 5px #aaaaaa; 

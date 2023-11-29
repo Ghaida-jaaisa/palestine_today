@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff0f0;
+}
+header {
+    width: 100%;
+    background-color:white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+ header .container{
+    background-color: white ;
+    width: calc(100% - 200px);
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    height: 100%;
+    width: 25%;
+}
+.introduction .container {
+    
+    background-color: white 0;
+    width: calc(100% - 120px);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:70px;   
+} 
+.introduction .row { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;    
+    gap: 10px;
+}
+.introduction .row .part {
+    margin: auto;
+    width: 45%;
+    background-color: white ;
+    height: 400px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+
+ .introduction .row .past ,
+ .introduction .row .today,
+ .introduction .row .cartoon, 
+ .introduction .row .videos
+ {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+ }
+ .past , .cartoon {
+order: 1 ;
+ }
+.introduction .tittle {
+
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 0px;
+    visibility: visible;
+    font-size: x-large;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px #aaaaaa;
+ }
+ .introduction .img {
+    width: 90%;
+    height: 80%;
+    margin-top: -40px;
+    background-size: cover;
+    background-position:center;
+    border-radius: 5px;
+ }
+ .past .img {
+    animation: past 100s linear .05s infinite alternate-reverse;
+ }
+ .today .img {
+    animation: today 30s linear .05s infinite alternate-reverse;
+ }
+ .cartoon .img { 
+    animation: cartoon  30s linear .05s infinite alternate-reverse;
+ }
+.videos .img {
+    animation: videos 100s linear .05s infinite alternate-reverse;
+}
+@keyframes past{
+0%{
+background-image: url(../img/cities/gaza.jpg);
+}
+10%{
+background-image: url(../img/cities/aka.jpg);
+}
+15%{
+    background-image: url(../img/cities/bethlehem.jpg);
+}
+20%{
+    background-image: url(../img/cities/bira.jpg);
+}
+25%{
+    background-image: url(../img/cities/bisan.jpg);
+}
+30%{
+    background-image: url(../img/cities/hayfa.jpg);
+}
+35%{
+    background-image: url(../img/cities/hebron.jpg);
+}
+40%{
+    background-image: url(../img/cities/jalil.jpg);
+}
+45%{
+    background-image: url(../img/cities/jenin.jpg);
+}
+50%{
+    background-image: url(../img/cities/jerusalim.jpg);
+}
+55%{
+    background-image: url(../img/cities/kalkylia.jpg);
+}
+60%{
+    background-image: url(../img/cities/lid.jpg);
+}
+65%{
+    background-image: url(../img/cities/nasra.jpg);
+}
+70%{
+    background-image: url(../img/cities/ramallah.jpg);
+}
+75%{
+    background-image: url(../img/cities/ramla.jpg);
+}
+80%{
+    background-image: url(../img/cities/safad.jpg);
+}
+85%{
+    background-image: url(../img/cities/salfit.jpg);
+}
+90%{
+    background-image: url(../img/cities/tabaria.jpg);
+}
+95%{
+    background-image: url(../img/cities/yafa.jpg);
+}
+100%{
+    background-image: url(../img/cities/aka.jpg);
+}
+}
+
+@keyframes today {
+    15% {
+        background-image: url(../img/happen_today/1.jpg);
+    }
+    30% {
+        background-image: url(../img/happen_today/2.webp);
+    }
+    45% {
+        background-image: url(../img/happen_today/3.jpg);
+    }
+
+    60% {
+        background-image: url(../img/happen_today/4.jpg);
+    }
+
+    75% {
+        background-image: url(../img/happen_today/5.jpg);
+    }
+
+    100% {
+        background-image: url(../img/happen_today/6.jpg);
+    }
+}
+@keyframes cartoon {
+    15% {
+        background-image: url(../img/Harb2023/1.jpg);
+    }
+
+    30% {
+        background-image: url(../img/Harb2023/2.jpg);
+    }
+
+    45% {
+        background-image: url(../img/Harb2023/3.jpg);
+    }
+
+    60% {
+        background-image: url(../img/Harb2023/4.jpg);
+    }
+
+    75% {
+        background-image: url(../img/Harb2023/5.jpg);
+    }
+
+    100% {
+        background-image: url(../img/Harb2023/6.jpg);
+    }
+}
+.introduction iframe{
+    width: 100%;
+    border-radius: 5px;
+}
+.gaza {
+    width: 90%;
+    margin: auto;
+}
+.gaza h2{
+    text-align: center;
+    padding: 40px ;
+    font-size: 35px;
+    font-weight: 900;
+    text-shadow:5px 5px 5px #911a1a;
+}
+.gaza .row{ 
+   background-color: while;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+} 
+.gaza .sec .img {
+    width: 90%;
+    height: 80%;
+    margin-top:-20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position:center;
+    border-radius: 5px;
+   position: absolute;
+   
+}
+.gaza .tittle{
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 0px;
+    visibility: visible;
+    font-size: x-large;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px #aaaaaa;
+}
+.gaza .sec {
+    width: 30%;
+    background-color: white ;
+    height: 350px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa; 
+    gap: 20px;
+}
+.gaza .education{
+order: 3;
+}
+.gaza .health {
+order: 2;
+}
+.childhood{
+    order: 1;
+}
+.gaza a{
+    text-decoration:underline;
+    color: black;
+}
+.gaza .education .img {
+    animation: education 20s linear .05s infinite alternate-reverse;
+}
+.gaza .health .img {
+    animation: health 20s linear .05s infinite alternate-reverse;
+}
+.gaza .childhood .img {
+    animation: childhood 20s linear .05s infinite alternate-reverse;   
+}
+ @keyframes education {
+    0%{ 
+    background-image: url(../img/schools/1.jpg);
+    }
+    25%{
+     background-image: url(../img/schools/2.webp);
+    }
+    50%{
+     background-image: url(../img/schools/3.jpg);
+    }
+    75%{
+     background-image: url(../img/schools/4.jpg);
+    }
+    100%{
+     background-image: url(../img/schools/5.webp);
+    }
+    
+}
+@keyframes health {
+    0%{
+        background-image: url(../img/health/1.jpg);
+    }
+    20%{
+        background-image: url(../img/health/3.jpg);
+    }
+    40%{        background-image: url(../img/health/2.jpg);
+    }
+    60%{        background-image: url(../img/health/4.jpg);
+    }
+    80%{        background-image: url(../img/health/6.webp);
+    }
+    100%{        background-image: url(../img/health/5.jpg);
+    }
+}
+@keyframes childhood {
+    0%{
+        background-image: url(../img/children/1.jpg);
+    }
+    15%{        background-image: url(../img/children/2.jpg);
+    }
+    30%{        background-image: url(../img/children/3.jpg);
+    }
+    45%{        background-image: url(../img/children/4.jpg);
+    }    
+    60%{        background-image: url(../img/children/5.jpg);
+    }
+    75%{        background-image: url(../img/children/6.jpg);
+    }
+    100%{        background-image: url(../img/children/7.jpg);
+    }
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gaza .video iframe {
+    width: 95%;
+    height: 450px;
+    margin: 30px 0;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #aaaaaa;
+} 
+/* west bank */ 
+.west-bank{
+    width: 100%;  
+    margin-top: 100px;
+}
+.west-bank .container{
+    background-color: white 0;
+    width: calc(100% - 120px);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:70px;   
+}
+.west-bank h2{
+    text-align: center;
+    padding-top: 35px ;
+    font-size: 35px;
+    font-weight: 900;
+    text-shadow:5px 5px 5px #221a91;
+}
+.west-bank .row{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;    
+    gap: 20px;
+ } 
+ .west-bank .img {
+    width: 90%;
+    height: 80%;
+    margin-top: -40px;
+    background-size: cover;
+    background-position:center;
+    border-radius: 5px;
+}
+.west-bank .tittle{
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 0px;
+    visibility: visible;
+    font-size: x-large;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px #aaaaaa;
+}
+.west-bank .sec
+{
+    margin: auto;
+    width: 45%;
+    background-color: white ;
+    height: 400px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.west-bank .sec .img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*
+.west-bank .education .img {
+    background-image:url(../img/west-bank/education.jpg) ;
+}
+.west-bank .health .img{
+    background-image: url(../img/west-bank/health.jpg);
+}
+.west-bank .childhood .img{
+    background-image: url(../img/west-bank/child.jpg);
+}
+.west-bank .economics .img{
+    background-image: url(../img/west-bank/economics.jpg);
+}
+.west-bank .aqsa .img{
+    background-image: url(../img/west-bank/quds.jpg);
+}
+.west-bank .apartheid-wall .img{
+    background-image: url(../img/west-bank/wall.jpg);
+}
+*/
+.west-bank a{
+    text-decoration: underline;
+    color: black;
+}
+#freep {
+    width: 80%;
+    margin-left: 10%;
+    height: 500px;
+}
